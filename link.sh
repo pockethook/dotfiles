@@ -10,4 +10,4 @@ ln -s ~/dotfiles/theme.lua ~/.config/awesome/themes/custom/theme.lua
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/xinitrc ~/.xinitrc
 ln -s ~/dotfiles/Xresources ~/.Xresources
-
+cp 10-keyboard.conf /etc/X11/xorg.conf.d/
