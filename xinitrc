@@ -1,2 +1,5 @@
 xrdb -merge ~/.Xresources
-exec awesome
+xmodmap ~/.Xmodmap
+xcape -e 'Control_L=Escape'
+xbindkeys
+exec i3
