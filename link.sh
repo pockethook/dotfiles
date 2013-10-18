@@ -1,4 +1,5 @@
 #!/bin/bash
+ln -sf $PWD/bash_profile ~/.bash_profile
 ln -sf $PWD/bashrc ~/.bashrc
 ln -sf $PWD/config ~/.i3/config
 ln -sf $PWD/dircolors ~/.dircolors
