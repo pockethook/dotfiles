@@ -4,6 +4,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+if [ -x /usr/bin/dircolors ]; then
+	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+fi
+
 shopt -s globstar
 
 alias l='ls --color=auto'
