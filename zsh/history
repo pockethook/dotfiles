@@ -1,0 +1,284 @@
+: 1382288021:0;vim /home/pockethook/.zsh/setopt.zsh
+: 1382288041:0;vim .zshrc
+: 1382288048:0;l
+: 1382288062:0;prompt -l
+: 1382288070:0;l
+: 1382288072:0;github
+: 1382288077:0;cd Github
+: 1382288079:0;ls
+: 1382288083:0;cd dotfiles
+: 1382288083:0;ls
+: 1382288089:0;cd zsh
+: 1382288090:0;ls
+: 1382288093:0;vim prompt.zsh
+: 1382288181:0;ls
+: 1382288469:0;prompt -l
+: 1382288475:0;ls
+: 1382288476:0;ls -al
+: 1382288483:0;cd
+: 1382288484:0;ls
+: 1382288494:0;ls --color=auto
+: 1382288585:0;vim .zsh/co
+: 1382288589:0;vim .zsh/color.zsh
+: 1382288596:0;vim .zsh/alias.zsh
+: 1382288617:0;ls
+: 1382288619:0;la
+: 1382288622:0;lal
+: 1382288623:0;la
+: 1382288624:0;lah
+: 1382288627:0;la
+: 1382288628:0;lah
+: 1382288632:0;lh
+: 1382288908:0;rtorrent
+: 1382289028:0;prompt 0p
+: 1382289032:0;prompt -p
+: 1382289055:0;prompt bart
+: 1382289058:0;l
+: 1382289072:0;vim .zshrc
+: 1382289082:0;vim .zsh/prompt.zsh
+: 1382289189:0;ls
+: 1382289190:0;ll
+: 1382289724:0;ls
+: 1382289727:0;d
+: 1382289734:0;cd /mnt/japan/Audio
+: 1382289734:0;l
+: 1382289736:0;cd Bartender
+: 1382289737:0;l
+: 1382289739:0;rename-
+: 1382289740:0;l
+: 1382289741:0;ll
+: 1382289748:0;cd
+: 1382289749:0;ls
+: 1382289758:0;cd -
+: 1382289759:0;l
+: 1382289760:0;cd ..
+: 1382289761:0;l
+: 1382289763:0;cd Clannad
+: 1382289763:0;l
+: 1382289766:0;rename -
+: 1382289771:0;rename-
+: 1382289771:0;l
+: 1382289773:0;cd
+: 1382289774:0;cd -
+: 1382289777:0;cd ..
+: 1382289777:0;ls
+: 1382289787:0;for f in * print $f
+: 1382289795:0;for f (*) print $f
+: 1382289850:0;for f (*) cd $f && rename- && cd ..
+: 1382289862:0;l
+: 1382289865:0;cd -
+: 1382289868:0;ls
+: 1382289933:0;for f (*) cd $f && rename-
+: 1382289936:0;-
+: 1382289937:0;l
+: 1382289959:0;rename-*/*
+: 1382289966:0;ls
+: 1382289967:0;cd
+: 1382289967:0;l
+: 1382289970:0;cd .zsh
+: 1382289971:0;l
+: 1382290344:0;ls
+: 1382290349:0;vim .zsh/prompt.zsh
+: 1382290359:0;l
+: 1382290383:0;prompt -l
+: 1382290387:0;prompt -p
+: 1382290431:0;vim .zsh/prompt.zsh
+: 1382290447:0;vim .zsh/completion.zsh
+: 1382290792:0;vim .zsh/prompt.zsh
+: 1382290804:0;ls
+: 1382290865:0;vim .zsh/prompt.zsh
+: 1382290975:0;wget https://raw.github.com/robbyrussel/oh-my-zsh/master/themes/pygmalion.zsh-theme
+: 1382291006:0;wget https://raw.github.com/robbyrussell/oh-my-zsh/master/themes/pygmalion.zsh-theme
+: 1382291008:0;ls
+: 1382291010:0;vim pygmalion.zsh-theme
+: 1382291020:0;vim .zsh/prompt.zsh
+: 1382291039:0;ls
+: 1382291045:0;rm pygmalion.zsh-theme
+: 1382291047:0;l
+: 1382291053:0;vim .zsh/prompt.zsh
+: 1382291556:0;ls
+: 1382291558:0;l
+: 1382291603:0;ls
+: 1382291606:0;s
+: 1382291879:0;ls
+: 1382291898:0;la
+: 1382291909:0;echo $PROMPT
+: 1382291918:0;print -P -- $PROMPT
+: 1382291929:0;print -P -- $prompt
+: 1382291953:0;print -P -- $ZSH_THEME_GIT_PROMPT_PREFIX
+: 1382292027:0;echo $CHEEHAN
+: 1382292201:0;rtorrent
+: 1382292223:0;cp /usr/share/doc/rtorrent/rtorrent.rc .rtorrent
+: 1382292227:0;vim .rtorrent
+: 1382292463:0;rtorrent
+: 1382292504:0;mv .rtorrent .rtorrent.rc
+: 1382292526:0;vim .rtorrent.rc
+: 1382292597:0;rtorrent
+: 1382292602:0;vim .rtorrent.rc
+: 1382292618:0;rtorrent
+: 1382292855:0;echo $CHEEHAN
+: 1382292868:0;print -P -- $CHEEHAN
+: 1382293030:0;ipython
+: 1382293215:0;print -P -- $CHEEHAN
+: 1382295679:0;ls
+: 1382295703:0;ipython
+: 1382299728:0;vim .zsh/prompt.zsh
+: 1382299881:0;echotc
+: 1382299884:0;echotc Co
+: 1382299896:0;man echotc
+: 1382300037:0;echo $fg
+: 1382300039:0;echo $fg[]
+: 1382300042:0;echo $fg[keys]
+: 1382300046:0;echo $fg
+: 1382300295:0;print -P -- "%t %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%} %#
+: 1382300300:0;print -P -- "%t %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%} %#"
+: 1382300350:0;print -P -- "%t %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300374:0;print -P -- "%pockethook %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300380:0;print -P -- "pockethook %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300403:0;print -P -- "%F{123}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300411:0;print -P -- "%F{13}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300419:0;print -P -- "%F{99}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300538:0;print -P -- "%B%F{99}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#"
+: 1382300547:0;print -P -- "%B%F{99}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#%b"
+: 1382300725:0;print -P -- "%B%F{199}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#%b"
+: 1382300748:0;print -P -- "%B%F{196}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#%b"
+: 1382300966:0;print -P -- "%B%F{6}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#%b"
+: 1382300977:0;print -P -- "%B%F{9}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#%b"
+: 1382300990:0;print -P -- "%B%F{10}pockethook%f %{$fg[cyan]%}%?%{$resetcolor%}%{$fg[blue]%}%~%{$resetcolor%}%#%b"
+: 1382301154:0;print -P -- '%(?.%F{245}.%F{124})%2m %f'
+: 1382301198:0;print -P -- '%(?.%F{245}.%F{124})%2m %F{130}%~ %F{215}%# %f'
+: 1382301262:0;asdf
+: 1382301266:0;echo
+: 1382301270:0;print -P -- '%(?.%F{245}.%F{124})%2m %F{130}%~ %F{215}%# %f'
+: 1382301276:0;ffmpeg -i-
+: 1382301286:0;print -P -- '%(1.%F{245}.%F{124})%2m %F{130}%~ %F{215}%# %f'
+: 1382301292:0;print -P -- '%(true.%F{245}.%F{124})%2m %F{130}%~ %F{215}%# %f'
+: 1382301298:0;print -P -- '%(false.%F{245}.%F{124})%2m %F{130}%~ %F{215}%# %f'
+: 1382301305:0;print -P -- '%(?.%F{245}.%F{124})%2m %F{130}%~ %F{215}%# %f'
+: 1382301555:0;for f (0..255) print $f
+: 1382301562:0;for f ({0..255}) print $f
+: 1382301578:0;for f ({0..255}) print %F{$f}hi%f
+: 1382301585:0;for f ({0..255}) print '%F{$f}hi%f'
+: 1382301590:0;for f ({0..255}) print -P -- '%F{$f}hi%f'
+: 1382301601:0;for f ({0..255}) print -P -- '%F{$f}The quick brown fox jumps over the lazy dog%f'
+: 1382301610:0;for f ({0..255}) print -P -- '%F{$f}The quick brown fox jumps over the lazy dog $f %f'
+: 1382301622:0;for f ({0..255}) print -P -- '%F{$f}The quick brown fox jumps over the lazy dog $f %f' | more
+: 1382301721:0;print -- $EDITOR
+: 1382301759:0;ls
+: 1382301773:0;Github/dotfiles
+: 1382301778:0;vim zshenv
+: 1382301976:0;vim link.sh
+: 1382301992:0;./link.sh
+: 1382302004:0;print -P -- $EDITOR
+: 1382302189:0;pacman -Ss antigen
+: 1382302195:0;pacman -Ss zsh
+: 1382302429:0;ls
+: 1382302432:0;cd Git
+: 1382302434:0;cd Github
+: 1382302435:0;l
+: 1382302437:0;ls
+: 1382302450:0;git clone https://github.com/zsh-users/antigen
+: 1382302557:0;ls
+: 1382302571:0;mv antigen dotfiles/zsh
+: 1382302574:0;cd dotfiles/zsh
+: 1382302575:0;l
+: 1382302582:0;cd antigen
+: 1382302665:0;ls
+: 1382302674:0;cd ..
+: 1382302674:0;l
+: 1382302680:0;cd ..
+: 1382302681:0;l
+: 1382302683:0;vim zshrc
+: 1382302703:0;cd zsh
+: 1382302703:0;l
+: 1382302708:0;cd antigen
+: 1382302708:0;l
+: 1382302712:0;source antigen.zsh
+: 1382302738:0;antigen bundle zsh-users/zsh-syntax-highlighting
+: 1382302767:0;antigen bundle git
+: 1382302815:0;antigen theme funky
+: 1382302859:0;antigen theme pygmalion
+: 1382302896:0;ls
+: 1382302898:0;cd
+: 1382302899:0;ls
+: 1382302900:0;ls -al
+: 1382302906:0;cd .antigen
+: 1382302906:0;l
+: 1382302909:0;cd repos
+: 1382302910:0;l
+: 1382302912:0;cd
+: 1382302913:0;l
+: 1382302920:0;rm -rf .antigen
+: 1382302929:0;cd .zsh
+: 1382302929:0;l
+: 1382302933:0;vim zsh_profile
+: 1382302940:0;cd ..
+: 1382302945:0;ls
+: 1382302952:0;cd Github/dotfiles
+: 1382302954:0;vim zshrc
+: 1382303046:0;Github/dotfiles
+: 1382303049:0;vim zshrc
+: 1382303113:0;cd ~/.zsh/antigen
+: 1382303114:0;ls
+: 1382338132:0;vim .Xresources
+: 1382339395:0;for f ({0..255}) print -P -- %F{$f}Hello
+: 1382339442:0;for f ({0..8}) print -P -- %F{$f}Hello $F{%f+1}Hello
+: 1382339542:0;colors
+: 1382340239:0;pacman -Ss rxvt
+: 1382340379:0;echo $t_Co
+: 1382340384:0;echo $Co
+: 1382341276:0;local HI=%F{123}
+: 1382341289:0;print -P -- $HI
+: 1382341297:0;print -P -- $HIthere
+: 1382341302:0;print -P -- $HI there
+: 1382341314:0;print -P -- $(HI) there
+: 1382341319:0;print -P -- $(HI)there
+: 1382341325:0;print -P -- ${HI}there
+: 1382342698:0;ls
+: 1382342711:0;vim zshrc
+: 1382342717:0;ls
+: 1382342721:0;cd zsh
+: 1382342722:0;ls
+: 1382342725:0;rm -rf antigen
+: 1382342726:0;ls
+: 1382342727:0;d
+: 1382342728:0;ls
+: 1382342730:0;cd
+: 1382342730:0;l
+: 1382342733:0;la
+: 1382342740:0;rm -rf .antigen
+: 1382342742:0;cd -
+: 1382342743:0;l
+: 1382342745:0;ll
+: 1382342748:0;git status
+: 1382342776:0;cd ..
+: 1382342776:0;ls
+: 1382342779:0;git status
+: 1382342783:0;git add zsh zshenv zshrc
+: 1382342784:0;ls
+: 1382342786:0;git status
+: 1382342804:0;git rm zsh/.*
+: 1382342808:0;git status
+: 1382342813:0;cd zsh
+: 1382342814:0;ls
+: 1382342815:0;l
+: 1382342816:0;la
+: 1382342822:0;git rm
+: 1382342827:0;git rm .*
+: 1382342830:0;rm .*
+: 1382342832:0;git status
+: 1382342839:0;git rm .alias.zsh.un\~
+: 1382342859:0;git rm .prompt.zsh.un\~ .setopt.zsh.un\~ .zsh
+: 1382342863:0;git status
+: 1382342872:0;git rm .zsh_profile.un\~
+: 1382342879:0;git statis
+: 1382342883:0;..
+: 1382342885:0;git status
+: 1382342905:0;ls
+: 1382342909:0;vim zshenv
+: 1382342915:0;vim link.sh
+: 1382342935:0;rm *.un\~
+: 1382342942:0;ls
+: 1382342944:0;git status
+: 1382342950:0;ls
+: 1382342988:0;git commit -am 'ZSH.'
