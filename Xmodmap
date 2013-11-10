@@ -1,3 +1,7 @@
 keysym Caps_Lock = Control_L
 add Control = Control_L
 clear Lock
+
+keysym Escape = Tab
+keysym Tab = Super_L
+add Mod4 = Tab
