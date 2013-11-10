@@ -42,12 +42,18 @@ alias mnt='sudo mount -o gid=users,fmask=113,umask=002'
 
 alias pac='comm -23 <(pacman -Qeq | sort) <(pacman -Qgq base base-devel | sort)'
 
+alias -s jpg='sxiv'
+alias -s jpeg='sxiv'
+alias -s png='sxiv'
+
 alias -s avi='mpv'
 alias -s mkv='mpv'
 alias -s mp4='mpv'
 
 alias -s flac='mpv'
 alias -s mp3='mpv'
+
+alias -s pdf='apvlv'
 
 # For correct_all
 #alias man='nocorrect man'
