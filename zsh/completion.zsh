@@ -29,3 +29,6 @@ zstyle ':completion:*' use-cache true
 
 # Cache path
 zstyle ':completion:*' cache-path ~/.zsh/cache/ 
+
+zstyle ':completion:*:descriptions' format "${RED}%B%d%b"
+zstyle ':completion:*:warnings' format "${RED}No matches for ${BLUE}%d"
