@@ -1,0 +1,8 @@
+// Replace tab with super
+// Replace unused super key with tab
+partial modifier_keys
+xkb_symbols "super" {
+    replace key <TAB> { [ Super_L, Super_L ] };
+    modifier_map  Mod4 { <TAB> };
+    replace key <RWIN> { [ Tab, Tab ] };
+};
