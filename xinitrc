@@ -1,5 +1,12 @@
 xrdb -merge ~/.Xresources
-xmodmap ~/.Xmodmap
-xcape -e 'Control_L=Escape;Super_L=Tab'
-xbindkeys
+
+xkbcomp -I$HOME/.xkb ~/.xkb/keymap $DISPLAY
+xcape -e 'Caps_Lock=Escape;Super_L=Tab'
+
+export GTK_IM_MODULE=fcitx
+export QK_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+
+udiskie &
+
 exec i3
