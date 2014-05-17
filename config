@@ -18,6 +18,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start chromium
 bindsym $mod+p exec "chromium"
 
+# start luakit
+bindsym $mod+o exec "luakit"
+
 # kill focused window
 bindsym $mod+q kill
 
