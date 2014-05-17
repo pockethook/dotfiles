@@ -1,4 +1,8 @@
 dotfiles
 ========
 
-Configuration files
+Configuration files for:
+i3
+zsh
+x
+vim
