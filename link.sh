@@ -10,9 +10,5 @@ do
 	ln -svf $dotfiles/$f ~/.$f
 done
 
-if [ ! -d /home/pockethook/github/zsh-syntax-highlighting ]; then
-	mkdir -p /home/pockethook/github
-	pushd /home/pockethook/github
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting
-	popd
-fi;
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/github/zsh-syntax-highlighting
+git glone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
