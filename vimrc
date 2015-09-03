@@ -1,20 +1,17 @@
 set nocompatible
 filetype off
-
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-fugitive'
-Bundle 'mileszs/ack.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'mtth/scratch.vim'
-Bundle 'Taghighlight'
-Bundle 'Valloric/YouCompleteMe'
-
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-fugitive'
+Plugin 'mileszs/ack.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'mtth/scratch.vim'
+Plugin 'Taghighlight'
+Plugin 'Valloric/YouCompleteMe'
+call vundle#end()
 filetype plugin indent on
 
 syntax enable
