@@ -28,8 +28,17 @@ alias la='ls -lA'
 alias lah='ls -lAh'
 
 alias g='git'
+alias ga='git add'
+alias gcm='git commit'
+alias gco='git checkout'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gl='git log'
+alias gs='git status'
+
 alias m='mpv'
 alias t='tree'
+alias td='tree -d'
 alias v='vim'
 
 alias -- rename='perl-rename'
@@ -37,8 +46,6 @@ alias -- rename_='perl-rename "s/ /_/g" *'
 alias -- rename-='perl-rename "s/_-_/-/g" *'
 alias -- renameU='perl-rename "s/_(\w)/_\u\1/g" *'
 alias -- rename0='perl-rename "s/-([0-9])\./-0\1\./" *'
-
-alias -- avimkv='for i (*.avi) ffmpeg -i $i -c copy ${i:r}.mkv'
 
 alias mnt='sudo mount -o gid=users,fmask=113,umask=002'
 
@@ -54,16 +61,26 @@ alias -s mp4='mpv'
 
 alias -s flac='mpv'
 alias -s mp3='mpv'
+alias -s mka='mpv'
 
 alias -s pdf='apvlv'
 
-# For correct_all
-#alias man='nocorrect man'
-#alias mkdir='nocorrect mkdir'
-alias mv='nocorrect mv'
-#alias sudo='nocorrect sudo'
+function py() {
+	python -c "import numpy as np; import math; print($*)"
+}
 
-# Directory aliases
-hash -d dak=/mnt/dak
-hash -d japan=/mnt/japan
-hash -d stuff=/mnt/stuff
+function sum() {
+	awk '{sum += $1} END {print sum}' $*
+}
+
+function p1() {
+	awk '{print $1}' $*
+}
+
+function p2() {
+	awk '{print $2}' $*
+}
+
+function p3() {
+	awk '{print $3}' $*
+}
