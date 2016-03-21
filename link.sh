@@ -11,7 +11,7 @@ do
 done
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/github/zsh-syntax-highlighting
-git glone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
