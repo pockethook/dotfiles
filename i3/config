@@ -18,8 +18,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start chromium
 bindsym $mod+p exec "chromium"
 
-# start luakit
-bindsym $mod+o exec "luakit"
+# start i3lock
+bindsym $mod+u exec "i3lock"
 
 # kill focused window
 bindsym $mod+q kill
