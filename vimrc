@@ -21,6 +21,8 @@ colorscheme solarized
 set wildmenu
 set wildmode=list:longest
 set number
+set relativenumber
+set ruler
 set cursorline
 set undofile
 set visualbell
@@ -45,20 +47,21 @@ nnoremap <C-L> <C-W>l
 let mapleader=' '
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>w :w<CR>
-nnoremap <Leader>e :e
-nnoremap <Leader>v :vsplit 
-nnoremap <Leader>s :split 
-nnoremap <Leader>p :CtrlP<CR>
+nnoremap <Leader>p :!python %<CR>
+nnoremap <Leader>g :!g++ -g3 -std=c++14 -o /tmp/out % && /tmp/out<CR>
+nnoremap <Leader>t :tabe<CR>
+nnoremap <Leader>m :make -j9<CR>
 nnoremap <Leader>r <C-W>R
 nnoremap <Leader>h <C-W>H
 nnoremap <Leader>j <C-W>J
 nnoremap <Leader>k <C-W>K
 nnoremap <Leader>l <C-W>L
-
-nnoremap <Leader><Space> z<CR>
-nnoremap <Leader>n zz
-nnoremap <Leader>f zM
-nnoremap <Leader>o zR
+nnoremap <Leader><Space> zz<CR>
+nnoremap <Leader>gb :Gblame<CR>
+nnoremap <Leader>gd :Gdiff<CR>
+nnoremap <Leader>ge :Gedit<CR>
+nnoremap <Leader>gl :Glog<CR>
+nnoremap <Leader>gs :Gstatus<CR>
 
 hi Class ctermfg= 1
 "hi DefinedName ctermfg=
