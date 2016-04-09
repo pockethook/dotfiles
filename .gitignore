@@ -1,2 +1,21 @@
-# History files
-history
+# Compiled source
+*.o
+*.so
+
+# Vim undo files
+*.un~
+
+# Vim swap
+*.swp
+
+# Ctags
+tags
+
+# Cscope
+cscope*
+
+# Highlighting
+*.taghl
+
+# Python
+__pycache__
