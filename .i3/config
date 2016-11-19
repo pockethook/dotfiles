@@ -143,5 +143,5 @@ bindsym $mod+r mode "resize"
 bar {
 	font pango:DejaVu Sans Mono 8
 	position top
-	status_command python ~/.i3/status.py
+	status_command i3status
 }
