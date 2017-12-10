@@ -18,6 +18,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start chromium
 bindsym $mod+p exec "chromium"
 
+# start rofi
+bindsym $mod+o exec "rofi -show run"
+
 # start i3lock
 bindsym $mod+u exec "i3lock"
 
