@@ -2,15 +2,18 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'tpope/vim-fugitive'
-Plugin 'mileszs/ack.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'mtth/scratch.vim'
 Plugin 'Taghighlight'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mbbill/undotree'
+Plugin 'mileszs/ack.vim'
+Plugin 'mtth/scratch.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'w0rp/ale'
 call vundle#end()
 filetype plugin indent on
 
@@ -47,10 +50,14 @@ nnoremap <C-L> <C-W>l
 let mapleader=' '
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>u :UndotreeToggle<CR>
+nnoremap <Leader>a :Ack
+nnoremap <Leader>s :Scratch<CR>
 nnoremap <Leader>p :!python %<CR>
 nnoremap <Leader>g :!g++ -g3 -std=c++14 -o /tmp/out % && /tmp/out<CR>
 nnoremap <Leader>t :tabe<CR>
 nnoremap <Leader>m :make -j9<CR>
+nnoremap <Leader>n :make test<CR>
 nnoremap <Leader>r <C-W>R
 nnoremap <Leader>h <C-W>H
 nnoremap <Leader>j <C-W>J
