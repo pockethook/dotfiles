@@ -68,19 +68,3 @@ alias -s pdf='apvlv'
 function py() {
 	python -c "import numpy as np; import math; print($*)"
 }
-
-function sum() {
-	awk '{sum += $1} END {print sum}' $*
-}
-
-function p1() {
-	awk '{print $1}' $*
-}
-
-function p2() {
-	awk '{print $2}' $*
-}
-
-function p3() {
-	awk '{print $3}' $*
-}
