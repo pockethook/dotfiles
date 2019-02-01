@@ -14,6 +14,7 @@ Plugin 'mtth/scratch.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
+Plugin 'skywind3000/asyncrun.vim'
 call vundle#end()
 filetype plugin indent on
 
@@ -53,11 +54,11 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>u :UndotreeToggle<CR>
 nnoremap <Leader>a :Ack
 nnoremap <Leader>s :Scratch<CR>
-nnoremap <Leader>p :!python %<CR>
+nnoremap <Leader>p :AsyncRun python %<CR>
 nnoremap <Leader>g :!g++ -g3 -std=c++14 -o /tmp/out % && /tmp/out<CR>
 nnoremap <Leader>t :tabe<CR>
-nnoremap <Leader>m :make -j9<CR>
-nnoremap <Leader>n :make test<CR>
+nnoremap <Leader>m :AsyncRun make -j9<CR>
+nnoremap <Leader>n :AsyncRun make upload<CR>
 nnoremap <Leader>r <C-W>R
 nnoremap <Leader>h <C-W>H
 nnoremap <Leader>j <C-W>J
