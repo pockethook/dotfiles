@@ -15,8 +15,8 @@ alias 9='cd -9'
 
 alias ls='ls --color=auto'
 alias l='ls'
-alias ll='ls -lh'
-alias lh='ls -l'
+alias ll='ls -l'
+alias lh='ls -lh'
 alias la='ls -lA'
 alias lah='ls -lAh'
 
