@@ -38,10 +38,12 @@ alias ddc='dot diff --cached'
 alias dl='dot log'
 alias ds='dot status'
 
-alias m='mpv'
+alias m='make'
 alias t='tree'
 alias td='tree -d'
 alias v='vim'
+
+alias def='sdcv'
 
 alias -- rename='perl-rename'
 alias -- rename_='perl-rename "s/ /_/g" *'
@@ -66,6 +68,11 @@ alias -s mp3='mpv'
 alias -s mka='mpv'
 
 alias -s pdf='apvlv'
+
+alias -s txt='vim'
+alias -s md='vim'
+alias -s ass='vim'
+alias -s srt='vim'
 
 function py() {
 	python -c "import numpy as np; import math; print($*)"
