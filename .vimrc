@@ -14,6 +14,7 @@ Plugin 'mtth/scratch.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
+Plugin 'jamessan/vim-gnupg'
 Plugin 'skywind3000/asyncrun.vim'
 call vundle#end()
 filetype plugin indent on
