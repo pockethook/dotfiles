@@ -1,6 +1,3 @@
-alias pu='pushd'
-alias po='popd'
-
 alias -- -='cd -'
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -15,10 +12,6 @@ alias 6='cd -6'
 alias 7='cd -7'
 alias 8='cd -8'
 alias 9='cd -9'
-
-alias d='dirs -v | head'
-
-alias _='sudo'
 
 alias ls='ls --color=auto'
 alias l='ls'
