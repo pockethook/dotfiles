@@ -67,7 +67,7 @@ alias -s flac='mpv'
 alias -s mp3='mpv'
 alias -s mka='mpv'
 
-alias -s pdf='apvlv'
+alias -s pdf='zathura'
 
 alias -s txt='vim'
 alias -s md='vim'
