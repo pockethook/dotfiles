@@ -75,5 +75,5 @@ alias -s ass='vim'
 alias -s srt='vim'
 
 function py() {
-	python -c "import numpy as np; import math; print($*)"
+	python -c "import numpy as np; import pandas as pd; import math; print($*)"
 }
