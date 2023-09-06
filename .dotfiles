@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+git clone https://github.com/pockethook/dotfiles ${HOME}/.dot
+cd && git --git-dir=${HOME}/.dot/.git checkout .
+
+# ZSH
+mkdir -p ${HOME}/github
+cd ${HOME}/github
+git clone https://github.com/zsh-users/zsh-syntax-highlighting
+
+
+# Vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
