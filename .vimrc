@@ -3,7 +3,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'Taghighlight'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
@@ -16,6 +15,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'jamessan/vim-gnupg'
 Plugin 'skywind3000/asyncrun.vim'
+Plugin 'mh21/errormarker.vim'
 call vundle#end()
 filetype plugin indent on
 
