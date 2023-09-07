@@ -70,7 +70,7 @@ nnoremap <Leader>gb :Gblame<CR>
 nnoremap <Leader>gd :Gdiff<CR>
 nnoremap <Leader>ge :Gedit<CR>
 nnoremap <Leader>gl :Glog<CR>
-nnoremap <Leader>gs :Gstatus<CR>
+nnoremap <Leader>gs :Git<CR>
 
 hi Class ctermfg= 1
 "hi DefinedName ctermfg=
