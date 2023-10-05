@@ -1,0 +1,13 @@
+vim.o.colorcolumn = '80'
+vim.o.cursorline = true
+vim.o.hidden = true
+vim.o.hlsearch = false
+vim.o.mouse = 'a'
+vim.o.number = true
+vim.o.relativenumber = true
+vim.o.shiftwidth = 4
+vim.o.smartindent = true
+vim.o.softtabstop = 4
+vim.o.tabstop = 4
+vim.o.termguicolors = true
+vim.o.undofile = true
