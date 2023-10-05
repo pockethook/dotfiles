@@ -1,0 +1,6 @@
+configuration {
+	matching: "fuzzy";
+	sorting-method: "fzf";
+	sort: true;
+}
+@theme "solarized"
